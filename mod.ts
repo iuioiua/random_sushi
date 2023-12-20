@@ -28,11 +28,11 @@ export type Sushi = typeof SUSHI_TYPES[number];
 /**
  * Generate a type of sushi using a cryptographically secure random number
  * generator.
- * 
+ *
  * @example
  * ```ts
  * import { randomSushi } from "jsr:@iuioiua/random_sushi@1";
- * 
+ *
  * randomSushi(); // "Nigiri"
  * ```
  */

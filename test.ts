@@ -1,5 +1,5 @@
 import { assert } from "https://deno.land/std@0.209.0/assert/assert.ts";
-import { SUSHI_TYPES, randomSushi, Sushi } from "./mod.ts";
+import { randomSushi, Sushi, SUSHI_TYPES } from "./mod.ts";
 
 Deno.test("randomSushi() returns a valid sushi type", () => {
   const sushi: Sushi = randomSushi();
