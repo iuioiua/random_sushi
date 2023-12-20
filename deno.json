@@ -1,0 +1,5 @@
+{
+  "name": "@iuioiua/random_sushi",
+  "version": "1.0.0",
+  "exports": "./mod.ts"
+}
